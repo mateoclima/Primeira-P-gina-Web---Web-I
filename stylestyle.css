@@ -1,0 +1,293 @@
+
+/* ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #212121;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.button-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f1af09;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #f5fffa;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #f1af09;
+}
+/* ESTILO CABEÇALHO*/
+header{
+    padding: 15px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .interface > .logo > a > img{
+    border-radius: 90%;
+    width: 100px;
+}
+
+
+header a{
+    color: #f5fffa;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 19px;
+}
+
+header a:hover{
+    color: #fdfdfd;
+    transform: scale(1.17);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.button-contato button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.15);
+}   
+
+/* ESTILO TOPO DO SITE */
+.img-topo-site > img{
+    border-radius: 5%;
+    width: 650px;
+    box-shadow: 0px 0px 30px #000000;
+}
+
+section.topo-do-site{
+    padding: 95px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #f5fffa;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #f1af09;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #f5fffa;
+    margin: 40px 0px;
+    font-size: 18px;
+}
+
+
+/* ESPECIALIDADES*/
+section.especialidades{
+    padding:180px 4%; 
+}
+
+section.especialidades .flex{
+    gap: 50px;
+}
+
+.especialidades .especialidades-box{
+    color: #f5fffa;
+    padding: 40px;
+    border-radius: 25px;
+    border: 2px solid #ffdf8da6 ;
+    margin-top: 60px;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #f5fffa;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #f1af09;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    color: #f1af09;
+    margin: 20px 0;
+}
+
+/* ESTILO SOBRE */
+section.sobre{
+    padding: 200px 4%;
+    
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+section > .interface > .flex > .img-sobre > img{
+    border-radius: 15%;
+    width: 450px;
+    box-shadow: 0px 0px 15px #ffdf8da6;
+}
+
+.sobre .txt-sobre{
+    color: #f5fffa;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #f1af09;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 15px 0;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*SOCIAL MEDIA*/
+/* From Uiverse.io by wilsondesouza */
+ul {
+    
+    list-style: none;
+  }
+  
+  .example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+  }
+  .example-2 .icon-content .tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  .example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    top: -50px;
+  }
+  .example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+  }
+  .example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  .example-2 .icon-content a:hover {
+    color: white;
+  }
+  .example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .example-2 .icon-content a:hover .filled {
+    height: 100%;
+  }
+  
+  .example-2 .icon-content a[data-social="linkedin"] .filled,
+  .example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+  }
+  
+  .example-2 .icon-content a[data-social="github"] .filled,
+  .example-2 .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #24262a;
+  }
+  .example-2 .icon-content a[data-social="instagram"] .filled,
+  .example-2 .icon-content a[data-social="instagram"] ~ .tooltip {
+    background: linear-gradient(
+      45deg,
+      #405de6,
+      #5b51db,
+      #b33ab4,
+      #c135b4,
+      #e1306c,
+      #fd1f1f
+    );
+  }
+  .example-2 .icon-content a[data-social="youtube"] .filled,
+  .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+    background-color: #ff0000;
+  }
+  
+  .sobre .txt-sobre .socialmedia{
+    margin-top: 60px;
+  }
